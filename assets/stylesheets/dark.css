@@ -81,25 +81,6 @@ body.dark .pagination ul.pages li.page:hover {
     background-color: darkgrey;
 }
 
-body.dark , 
-body.dark #main-menu, 
-body.dark #main-menu li a, 
-body.dark #main-menu li a.selected, 
-body.dark #main-menu li a:hover, 
-body.dark .nodata, 
-body.dark .warning, 
-body.dark #errorExplanation, 
-body.dark #flash_error, 
-body.dark a, 
-body.dark a:link, 
-body.dark a:visited, 
-body.dark a:hover, 
-body.dark a:focus, 
-body.dark div.flash.notice, 
-body.dark #main-menu .menu-children li a:hover {
-    color: rgb(17,17,17);
-}
-
 body.dark #main-menu, 
 body.dark #main-menu li a.selected, 
 body.dark #main-menu li a:hover, 
@@ -236,26 +217,7 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
     body .pagination ul.pages li.page:hover {
         background-color: darkgrey;
     }
-    
-    body , 
-    body #main-menu, 
-    body #main-menu li a, 
-    body #main-menu li a.selected, 
-    body #main-menu li a:hover, 
-    body .nodata, 
-    body .warning, 
-    body #errorExplanation, 
-    body #flash_error, 
-    body a, 
-    body a:link, 
-    body a:visited, 
-    body a:hover, 
-    body a:focus, 
-    body div.flash.notice, 
-    body #main-menu .menu-children li a:hover {
-        color: rgb(17,17,17);
-    }
-    
+        
     body #main-menu, 
     body #main-menu li a.selected, 
     body #main-menu li a:hover, 
@@ -296,11 +258,6 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
         border-color: #ddd;
     }
 
-    body select option,
-    body select optgroup {
-        /*color: #ccc;*/
-        /*background-color: #191919;*/
-    }
 
     body #activity .issue a,
     body #activity .issue-note a,
@@ -329,4 +286,9 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
     body.theme-Rtmaterial #my-page tr.overdue td.id {
         border-left: 3px solid #29B6F6 !important;
     }
+
+    .top-menu__links svg.icon-svg, #account .dropdown-trigger .icon-svg {
+	    stroke: var(--oc-gray-8);
+    }
+
 }
