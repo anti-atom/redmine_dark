@@ -16,7 +16,7 @@ body.dark {
 
 body.dark:not(.theme-Rtmaterial) .icon{
     filter: invert(100%);
-    color: #555 !important;
+    color: #999 !important;
 }
 
 body.dark .badge,
@@ -164,7 +164,7 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
     
     body:not(.theme-Rtmaterial) .icon{
         filter: invert(100%);
-        color: #555 !important;
+        color: #999 !important;
     }
     
     body .flyout-menu {
@@ -298,8 +298,8 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
 
     body select option,
     body select optgroup {
-        color: #ccc;
-        background-color: #191919;
+        /*color: #ccc;*/
+        /*background-color: #191919;*/
     }
 
     body #activity .issue a,
